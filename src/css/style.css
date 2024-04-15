@@ -1,0 +1,99 @@
+body {
+    background-image: url('../images/bg-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    color: #fff;
+
+
+
+
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+}
+
+
+.container .header {
+    margin: 50px 60px;
+
+}
+
+.container .conteudo {
+    display: flex;
+}
+
+
+.container .image {
+    display: flex;
+    margin: 80px;
+    height: 100%;
+    width: 100%;
+}
+
+.container .item {
+    display: flex;
+    flex-direction: column;
+    margin: 120px 10px 0 30px;
+    gap: 20px;
+    width: 100%;
+
+
+
+}
+
+.container .item h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+
+}
+
+.container .item p {
+
+    line-height: 28px;
+    width: 525px;
+    font-size: 18px;
+
+}
+
+.item .btn {
+    margin: 35px;
+
+
+}
+
+.item .btn a {
+    font-size: 25px;
+    border-radius: 50px;
+    background-color: #fff;
+    padding: 15px 80px;
+    box-shadow: black 0 3px;
+    transition: 0.3s ease-in-out;
+}
+
+.item .btn a:hover {
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+.social{
+    display: flex;
+    justify-content: flex-end;
+   margin-right: 150px;
+}
+
+.social a {
+    color: #fff;
+   font-size: 30px;
+   border: solid 1px ;
+   border-radius: 35px;
+   margin: 15px;
+  transition: 0.3s;
+}
+
+.social i{
+    padding: 10px;
+}
+
+.social a:hover{
+    color: hsl(300, 69%, 71%);
+}
